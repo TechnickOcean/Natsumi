@@ -1,0 +1,23 @@
+{
+  "name": "natsumi-client",
+  "version": "0.0.1",
+  "description": "The frontend part of the Natsuki BBS system.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@unocss/preset-mini": "^66.5.12",
+    "@unocss/vite": "^66.5.12",
+    "solid-devtools": "^0.34.4",
+    "typescript": "^5.9.3",
+    "vite-plugin-solid": "^2.11.10"
+  },
+  "dependencies": {
+    "@natsumi/shared": "workspace:*",
+    "solid-js": "^1.9.10"
+  }
+}
