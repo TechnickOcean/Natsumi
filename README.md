@@ -2,7 +2,7 @@
 
 ![Natsumi](.github/readme/Shiki_Natsume.png)
 
-Yet another BBS system built upon morden tech stacks: Solid.js + Nest.js
+Yet another BBS system built upon morden tech stacks: Solid.js + Hono.js
 
 ## Development
 

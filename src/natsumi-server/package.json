@@ -4,7 +4,7 @@
   "type": "module",
   "dependencies": {
     "@natsumi/shared": "workspace:*",
-    "hono": "^4.10.8"
+    "hono": "^4.11.3"
   },
   "scripts": {
     "dev": "vite",
