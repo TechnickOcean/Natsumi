@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A BBS system built upon morden tech stacks.",
   "author": "Nick Chen",
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.28.0",
   "license": "Apache-2.0",
   "workspaces": [
     "src/**",
