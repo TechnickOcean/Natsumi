@@ -18,7 +18,8 @@
     ":automergeTesters",
     "group:monorepos",
     "group:recommended",
-    "workarounds:all"
+    "workarounds:all",
+    "github>shinGangan/renovate-config-hono"
   ],
   "lockFileMaintenance": {
     "enabled": true,

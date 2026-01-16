@@ -14,7 +14,7 @@
     "strict": true,
     "skipLibCheck": true,
     "types": ["vite/client"],
-    "lib": ["DOM", "ESNext"],
+    "lib": ["DOM", "ESNext"]
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules"]

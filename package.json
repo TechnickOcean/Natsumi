@@ -1,18 +1,17 @@
 {
   "name": "natsumi-bbs-monorepo",
-  "type": "commonjs",
+  "type": "module",
   "version": "0.0.1",
   "description": "A BBS system built upon morden tech stacks.",
   "author": "Nick Chen",
   "packageManager": "pnpm@10.28.0",
   "license": "Apache-2.0",
   "workspaces": [
-    "src/**",
     "packages/**"
   ],
   "scripts": {
-    "dev:client": "pnpm -C src/natsumi-client dev",
-    "dev:server": "pnpm -C src/natsumi-server dev",
+    "dev:client": "pnpm -C packages/client dev",
+    "dev:server": "pnpm -C packages/server dev",
     "dev": "npm-run-all -p dev:client dev:server",
     "lint": "biome lint --write .",
     "format": "biome format --write ."
@@ -21,9 +20,15 @@
     "@biomejs/biome": "2.3.11",
     "@tsconfig/node-lts": "^24.0.0",
     "@tsconfig/strictest": "^2.0.8",
-    "@vitest/ui": "^4.0.16",
+    "@types/node": "^22.19.7",
+    "@vitest/ui": "^4.0.17",
     "npm-run-all": "^4.1.5",
-    "vite": "^7.3.1",
-    "vitest": "^4.0.16"
+    "tsx": "^4.21.0",
+    "vitest": "^4.0.17",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "hono": "^4.11.4",
+    "vite": "^7.3.1"
   }
 }

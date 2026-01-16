@@ -1,0 +1,27 @@
+{
+  "name": "@natsumi/server",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.6",
+    "@libsql/client": "^0.17.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "zod": "^4.3.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@hono/vite-build": "^1.9.1",
+    "@hono/vite-dev-server": "^0.24.1",
+    "drizzle-kit": "^0.31.8"
+  }
+}
