@@ -10,7 +10,7 @@ importers:
     dependencies:
       hono:
         specifier: ^4.11.4
-        version: 4.11.4
+        version: 4.11.8
       vite:
         specifier: ^7.3.1
         version: 7.3.1(@types/node@22.19.7)(jiti@2.6.1)(tsx@4.21.0)
@@ -69,7 +69,7 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.7.6
-        version: 0.7.6(hono@4.11.4)(zod@4.3.5)
+        version: 0.7.6(hono@4.11.8)(zod@4.3.5)
       '@libsql/client':
         specifier: ^0.17.0
         version: 0.17.0
@@ -85,10 +85,10 @@ importers:
     devDependencies:
       '@hono/vite-build':
         specifier: ^1.9.1
-        version: 1.9.1(hono@4.11.4)
+        version: 1.9.2(hono@4.11.8)
       '@hono/vite-dev-server':
-        specifier: ^0.24.1
-        version: 0.24.1(hono@4.11.4)
+        specifier: ^0.25.0
+        version: 0.25.0(hono@4.11.8)
       drizzle-kit:
         specifier: ^0.31.8
         version: 0.31.8
@@ -696,14 +696,14 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@hono/vite-build@1.9.1':
-    resolution: {integrity: sha512-3FEiBrYXLaqpcO1/pcjdkQorTyuUArEMd2YTxzd6S3R/gPI9Q2h/IAiJGojLT44QiEsqJs8IvgKRNdVB+tKwiA==}
+  '@hono/vite-build@1.9.2':
+    resolution: {integrity: sha512-7/qan3lgeA8mMv7jtx5KX0wrAdMteNqI87JcZjS1CUN9hhIsaqOvySXcT3lZLyhYidywl+s88ZX84I0knefItA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
 
-  '@hono/vite-dev-server@0.24.1':
-    resolution: {integrity: sha512-1ga1v9awRuYgs/C2/nhnOiAUeB3zPI/rEbfXkow7kOSHa8AYxxveDSpVsMZneE3ojwgkXQl2G68S+xj2WqxWPw==}
+  '@hono/vite-dev-server@0.25.0':
+    resolution: {integrity: sha512-4j5rs7yUTOObU2/yCEHeWbf3C8m95SD9lhdUUE6CJ462Emp9vS94yiza2dsA8+ly5pdaIQW0cd4nhNVcwYL5tA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -1528,8 +1528,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.11.4:
-    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
+  hono@4.11.8:
+    resolution: {integrity: sha512-eVkB/CYCCei7K2WElZW9yYQFWssG0DhaDhVvr7wy5jJ22K+ck8fWW0EsLpB0sITUTvPnc97+rrbQqIr5iqiy9Q==}
     engines: {node: '>=16.9.0'}
 
   hosted-git-info@2.8.9:
@@ -2607,23 +2607,23 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
-  '@hono/node-server@1.19.9(hono@4.11.4)':
+  '@hono/node-server@1.19.9(hono@4.11.8)':
     dependencies:
-      hono: 4.11.4
+      hono: 4.11.8
 
-  '@hono/vite-build@1.9.1(hono@4.11.4)':
+  '@hono/vite-build@1.9.2(hono@4.11.8)':
     dependencies:
-      hono: 4.11.4
+      hono: 4.11.8
 
-  '@hono/vite-dev-server@0.24.1(hono@4.11.4)':
+  '@hono/vite-dev-server@0.25.0(hono@4.11.8)':
     dependencies:
-      '@hono/node-server': 1.19.9(hono@4.11.4)
-      hono: 4.11.4
+      '@hono/node-server': 1.19.9(hono@4.11.8)
+      hono: 4.11.8
       minimatch: 9.0.5
 
-  '@hono/zod-validator@0.7.6(hono@4.11.4)(zod@4.3.5)':
+  '@hono/zod-validator@0.7.6(hono@4.11.8)(zod@4.3.5)':
     dependencies:
-      hono: 4.11.4
+      hono: 4.11.8
       zod: 4.3.5
 
   '@jridgewell/gen-mapping@0.3.13':
@@ -3501,7 +3501,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.11.4: {}
+  hono@4.11.8: {}
 
   hosted-git-info@2.8.9: {}
 
